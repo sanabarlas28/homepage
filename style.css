@@ -1,0 +1,372 @@
+.upr{
+    height: 40px;
+    background-color:#316dd9;
+}
+.upr img{
+    margin-right: 15px;
+    vertical-align: middle;
+}
+body{
+    /* background-color:white; */
+    margin: 0px;
+    background-color:white;
+}
+p{
+    color: white;
+    vertical-align: middle;
+}
+.button{
+    background-color: whitesmoke;
+    padding-left: 10px;
+    padding: 10px;
+    padding-top: 6px;
+    margin-top:2px ;
+    height: 35px;
+    color: green;
+    font-size: 11px;
+
+}
+.para{
+    display: inline;
+    position: relative;
+    margin-right: 320px;
+    top: -4px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* .button2,.button3:hover {
+    cursor: pointer;
+}
+.button3{
+    border-radius: 25px;
+    background: white;
+    padding: 15px;
+    width: 140px;
+    height: 10px;
+    margin-right: 1px;
+    top: 20px;
+    left: 100px;
+    
+}
+.upr2{
+    background-color:white;
+    height: 80px;
+    padding: 10px
+   
+
+}
+#hme{
+    background-color:#316dd9;
+}
+
+.rapper{
+    position: fixed;
+    width: 1400px;
+    
+} */
+
+
+
+.nav {
+    background-color: #f7f8fa;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.menu-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 300px;
+}
+
+.menu-img img {
+    width: 200px;
+}
+
+.menu-bar {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 17px;
+}
+
+.menu-bar ul li:hover {
+    background-color: #316dd9;
+   
+}
+
+.menu-bar ul li :hover {
+    color: white;
+    /* font-style: italic; */
+    
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: inline-flex;
+    text-align: left;
+}
+
+.menu-bar ul li {
+    margin: 0px;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+
+.sub-menu {
+    display: none;
+    width: 240px;
+}
+
+.sub-menu ul {
+    padding-inline-start: 0px;
+}
+
+.menu-bar ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background: #fff;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.child-menu {
+    display: none;
+    width: 220px;
+}
+
+.sub-menu ul li:hover .child-menu {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    margin-top: -40px;
+    margin-left: 200px;
+}
+
+.childchild-menu {
+    display: none;
+    width: 240px
+}
+
+.child-menu ul li:hover .childchild-menu {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    margin-top: -40px;
+    margin-left: 170px;
+}
+
+.menu-bar ul li  a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+  .marquee:hover{
+      cursor: pointer;
+      
+  }
+  .image{
+    /* max-width: 100%;
+    max-height: 100%; */
+    /* margin-top: 110px; */
+  }
+  span{
+      color: rgb(144, 231, 144);
+  }
+  /* .intro{
+      color: blue;
+
+  } */
+
+.marquee{
+    background-color: rgb(21, 21, 206);
+    color: whitesmoke;
+    padding-top: 10px;
+    margin: 10px 100px 10px 100px;
+}
+
+
+
+
+.ans{
+    background-color: rgba(145, 145, 145, 0.219);
+}
+
+
+  .hd{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    /* background-color: rgb(218, 212, 212); */
+    text-align: center;
+  }
+  .hd p{
+      color: rgb(15, 15, 15);
+      text-align: justify ;
+      
+  }
+  /* .duc{
+      padding-right: 10px;
+  } */
+  .a{
+      background-color:#2655e8;
+      width: 100%;
+      /* display: flex; */
+      /* justify-content: space-between; */
+      /* display: inline-block; #427900*/
+      
+    
+      
+     
+  }
+  .b,.c,.e,.d{
+      display: inline-block;
+     text-align: center;
+     padding-left: 40px;
+     margin: 10px;
+
+  }
+.month{
+    color: lightgreen;
+}
+.num1{
+    color: white;
+}
+
+.wad{
+    text-align: center;
+}
+
+.pic{
+    width: 350px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    color: blue;
+    background-color: white;
+    display: inline-block;
+}
+.pic h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .gridtable{
+    display: inline-block;
+} */
+/* .msp{
+    text-align: center;
+}
+.pic1{
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    color: blue;
+    background-color: rgb(231, 229, 229);
+    /* display: inline-block; */
+
+/* } */
+/* .pic1 span{
+    color: rgb(47, 0, 255);
+    font-size: 18px;
+}
+.msp h2{
+    color: blue;
+    /* text-align: start; */
+/* } */
+/* .events marquee span{
+    color: black;
+}
+.events div{
+    width:200px; height: 150px; color: gray;
+    margin-top: 40px;
+}
+.WRAPPER{
+    display: grid;
+    grid-template-columns: 75% 25%; 
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    color: blue;
+}  */
+
+
+.mispic {
+    background-color: white;
+    margin-top: 50px;
+    padding-bottom: 150px;
+}
+
+.missionevent {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    color: blue;
+}
+
+.missionpicture {
+    border: 1px solid rgba(5, 5, 5, .1);
+    margin: 10px;
+    display: inline-block;
+    width: 350px;
+    padding: 20px;
+    font-weight: 600;
+    background-color: rgba(180, 170, 170, 0.15);
+    ;
+}
+
+.missionpicture img {
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.events div {
+    margin-top: 40px;
+}
+.missionpicture span {
+    color: black;
+} 
+.im{
+    text-align: center;
+
+}
+.picgl{
+    padding: 10px;
+    margin: 30px;
+}
+.f{
+    width: 1110px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:#25272e;
+    color: #b9b9b9;
+}
+#address{
+    color: #b9b9b9;
+}
+footer{
+    background-color:#25272e;
+}
+
+.last{
+    background-color: #316dd9;
+    color: #d7e2f8;
+    text-align: center;
+    margin: -20px;
+    padding: 0px;
+    width: 1369px;
+}
